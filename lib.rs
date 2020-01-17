@@ -1,11 +1,17 @@
-pub mod ogdcl {
-    pub fn zamzama_gas_field(){
-        let field_manager = "Omar Burki".to_string();
-        let gas_prod:u32 = 140;
-        let budget:u32  = 90;
-        
-        println!("");
-        println!("Field Manager of Zamzama Gas Field = '{}'",field_manager);
-        println!("Profit from ZAMZAMA GAS FIELD = Production ({}) - Budget ({}) = {}",gas_prod,budget,gas_prod-budget);
+pub mod pak_petroleum {
+    pub mod total_operational_portfolios {
+        pub fn exploration_portfolios() {
+            let blocks_in_sindh = 10;
+            let blocks_in_kpk = 5;
+            let blocks_in_balochistan = 12;
+            let blocks_in_punjab = 2;
+            println!("");
+	    println!("Exploration Portfolios of Pak Petroleum in Sindh = {}",blocks_in_sindh);
+            println!("Exploration Portfolios of Pak Petroleum in KPK = {}",blocks_in_kpk);
+            println!("Exploration Portfolios of Pak Petroleum in Balochistan = {}",blocks_in_balochistan);
+            println!("Exploration Portfolios of Pak Petroleum in Punjab = {}",blocks_in_punjab);
+            println!("Total Exploration Portfolios of Pak Petroleum = {}+{}+{}+{} = {}",blocks_in_sindh,blocks_in_kpk,blocks_in_balochistan,blocks_in_punjab, blocks_in_sindh+blocks_in_kpk+blocks_in_balochistan+blocks_in_punjab);
+        }
     }
 }
+ 
